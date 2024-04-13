@@ -1,0 +1,269 @@
+body{
+  width: 1400px;
+  height: 1046px;
+  font-family: Roboto, Roboto Slab;
+}
+.course{
+  font-family: "Roboto Slab";
+  font-size: 55px;
+  position: absolute;
+  width: 365px;
+  height: 93px;
+  left: 124px;
+  right: 955px;
+  top: 91px;
+  font-weight: 700;
+  line-height: 55.76px;
+  color: #000000;
+  margin: 0 auto;
+}
+.img{
+  position: absolute;
+  width: 314px;
+  height: 315px;
+  left: 976px;
+  right: 150px;
+  top: 226px;
+  bottom: 505px;
+  margin: 0 auto;
+}
+.ellipse-text{
+  position: absolute;
+  left: 950px;
+  right: 124px;
+  top: 511px;
+  bottom: 476px;
+  z-index: -1;
+  width: 366px;
+  height: 59px;
+  background-color: #efefef;
+  clip-path: ellipse(170px 30px);
+  margin: 0 auto;
+}
+.text{
+  position: absolute;
+  width: 662px;
+  font-family: Roboto;
+  height: 374px; 
+  top: 202px;
+  bottom: 470px;
+  left: 124px;
+  right: 654px;
+  font-size: 24px;
+  line-height: 36px;
+  font-weight: 400;
+  color: #000000;
+  max-width: 0 auto;
+}
+.footer-img{
+  position: absolute;
+  width: 232px;
+  height: 203px;
+  top: 670px;
+  left: 124px;
+  bottom: 173px;
+  right: 1084px;
+  margin: 0 auto;
+}
+.footer-ellipse{
+  position: absolute;
+  width: 189px;
+  height: 32px;
+  top: 857px;
+  left: 157px;
+  bottom: 157px;
+  right: 1094px;
+  z-index: -1;
+  background-color: #efefef;
+  clip-path: ellipse(95px 15px);
+  margin: 0 auto;
+}
+.menu-f{
+  position: relative;
+  display: flex;
+  top: 740px;
+  left: 500px;
+  justify-content: space-around;
+  width: 50%;
+  max-width: 700px;
+  margin: 0 auto;
+}
+.menu-head{  
+  width: 150px;
+  height: 39px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 32.5px;
+  color: #000000;
+  margin: 0 auto;
+}
+.menu-text{
+  width: 150px;
+  height: 39px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 130%;
+  color: #000000;
+  line-height: 23.4px;
+  font-family: Roboto;
+  margin: 0 auto;
+}
+@media (max-width: 991px){
+  body{
+    width: 834px;
+    height: 633px;
+    top: -512px;
+    left: 891px;
+  }
+  .course{
+    position: absolute;
+    width: 211.4px;
+    height: 53.86px;
+    top: 56px;
+    left: 72px;
+    font-family: Roboto Slab;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 32.44px;
+    margin: 0 auto;
+  }
+  .img{
+    width: 181.86px;
+    height: 182.44px;
+    top: 134.19px;
+    left: 565.45px;
+    margin: 0 auto;
+  }
+  .ellipse-text{
+    width: 211.98px;
+    height: 34.17px;
+    top: 299.25px;
+    left: 550.39px;
+    z-index: -1;
+    clip-path: ellipse(100px 15px);
+    margin: 0 auto;
+}
+  .text{
+    width: 383.41px;
+    height: 216.61px;
+    top: 120.29px;
+    left: 72px;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    margin: 0 auto;
+}    
+  .footer-ellipse{
+    width: 109.46px;
+    height: 18.53px;
+    top: 480.81px;
+    left: 89.19px;
+    z-index: -1;
+    background-color: #efefef;
+    clip-path: ellipse(55px 10px);
+    margin: 0 auto;
+}
+.footer-img{
+  width: 134.37px;
+  height: 117.57px;
+  top: 372px;
+  left: 70.08px;
+  margin: 0 auto;
+}
+  .menu-f{
+    top: 380px;
+    max-width: 300px;
+    width: 50%;
+    left: 72px;
+    margin: 0 auto;
+}
+  .menu-head{
+    font-size: 16px;
+    margin: 0 auto;
+}
+  .menu-text{
+    font-size: 11px;
+    line-height: 14.3px;
+}
+}
+@media (max-width: 600px) {
+  body{
+    width: 375px;
+    height: 776px;
+    top: -512px;
+    left: 1896px;
+}
+  .course{
+    position: absolute;
+    width: 170.08px;
+    height: 43.34px;
+    top: 56px;
+    left: 36px;
+    font-family: Roboto Slab;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 26.36px;
+    margin: 0 auto;
+}
+  .img{
+    top: 338px;
+    bottom: 291.22px;
+    right: 103.45px;
+    width: 146.32px;
+    height: 146.78px;
+    top: 338px;
+    left: 113.12px;
+    margin: 0 auto;
+  }
+  .ellipse-text{
+    width: 170.55px;
+    height: 27.49px;
+    top: 470.8px;
+    left: 101px;
+    right: 103.45px;
+    bottom: 277.71px;
+    z-index: -1;
+    clip-path: ellipse(80px 10px);
+    background-color: #efefef;
+    margin: 0 auto;
+}
+  .text{
+    width: 308.47px;
+    height: 174.27px;
+    top: 107.72px;
+    left: 36px;
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    margin: 0 auto;
+}
+  .main-f{
+    display: none;
+}
+  .menu-f{
+    display: flex;
+    flex-wrap: wrap;
+    top: 544px;
+    width: 100%;
+    left: 36px;
+    margin: 0 auto;
+}
+  .menu-head{
+    font-size: 12px;
+    margin: 0 auto;
+}
+  .menu-text{
+    font-size: 10px;
+    line-height: 13px;
+    margin: 0 auto;
+}
+  .menu-elt{
+    padding-right: 160px;
+}
+}
