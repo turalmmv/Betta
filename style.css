@@ -1,0 +1,773 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.course-statistics {
+    background-color: #EFEFEF
+}
+.statistics-container{
+    width:85%;
+    margin:auto;
+    padding: 90px 0;
+}
+.main-container {
+    display: flex;
+    flex-direction: column;
+    width: 791px;
+    height: 451px;
+    border-radius: 30px;
+    box-shadow: 1px 1px 20px 0px rgba(0, 0, 0, 0.25);
+ }
+ 
+ .image-container {
+    margin-top: 10px;
+ }
+ 
+ .sub-div {
+    
+    margin-top: 10px;
+    margin-left: 30px;
+    width: 353px;
+    height: 90px;
+ }
+ .bottom-part {
+    display: flex;
+    align-items: center; 
+    justify-content: space-between;
+    width: 75%; 
+ } 
+ .statistics {
+    color: #000;
+    /* font-family: Roboto Slab; */
+    font-size: 55px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 101.385%;
+    width: 987px;
+    height: 93px;
+ 
+ }
+ 
+ .content-p {
+    color: #000;
+    /* font-family: Roboto; */
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    width: 700px;
+    height: 203px;
+    margin-top: 40px;
+    margin-left: 45px;
+ }
+ 
+ .h-i {
+    width: 190px;
+    height: 169px;
+    margin-left: 26px;
+    margin-top: 10px;
+ 
+ }
+ 
+ .name {
+    color: #000;
+    /* font-family: Roboto Slab; */
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 101.385%;
+    width: 353px;
+    height: 59px;
+    flex-shrink: 0;
+ }
+ .f-i {
+    width: 32px;
+    height: 31px;
+    flex-shrink: 0;
+ }
+ 
+ .image-container {
+    width: 190px;
+    height: 169px;
+ }
+ @media screen and (max-width: 1280px) and (min-width: 992px) {
+    .main-container {
+       width: 65%;
+       height: 300px;
+       border-radius: 17.375px;
+       box-shadow: 0.57917px 0.57917px 11.58333px 0px rgba(0, 0, 0, 0.25);
+       justify-content: space-between;
+    }
+    .statistics {
+       width: 590.638px;
+       height: 53.863px;
+       font-size: 36px;
+    }
+    .content-p {
+       width: 91%;
+       height: 117.571px;
+       font-size: 17px;
+       margin-top: 23px;
+       margin-left: 26px;
+    }
+    .h-i {
+       width: 110.042px;
+       height: 97.879px;
+       margin-left:15px;
+    }
+    .bottom-part{
+        margin-top: 10px;
+        justify-content: space-between;
+        width:60%;
+        margin-bottom: 10px;
+    }
+    .name {
+       width: 204.446px;
+       height: 34.171px;
+       font-size: 19px;
+    }
+    .f-i {
+       width: 25px;
+       height: 25px;
+    }
+    .image-container {
+       width: 110.042px;
+       height: 97.879px;
+    }
+    .sub-div {
+       margin-top: 10px;
+       margin-left: 17px;
+       width: 204px;
+       height: 52.3px;
+    }
+ }
+ @media screen and (max-width: 991px) and (min-width: 800px) {
+    .main-container {
+       width: 92%;
+       height: 327px;
+       border-radius: 13.979px;
+       box-shadow: 0.46597px 0.46597px 9.31944px 0px rgba(0, 0, 0, 0.25);
+    }
+    .statistics {
+       width: 70%;
+       height: 69px;
+       font-size: 26px;
+       margin-bottom: 2%;
+    }
+    .bottom-part{
+        margin-top: 15px;
+        width:54%;
+        margin-bottom: 15px;
+    }
+    .content-p {
+       width: 92%;
+       height: 144px;
+       font-size: 18px;
+       margin-top: 18px;
+       margin-left: 21px;
+    }
+    .h-i {
+       width: 193px;
+       height: 125px;
+       margin-left:12px;
+       margin-top: 0px;
+      
+    }
+    .name {
+       width: 200px;
+       height: 32.729px;
+       font-size: 17px;
+    }
+    .f-i {
+       width: 25px;
+       height: 25px;
+    }
+    .image-container {
+       width: 80px;
+       height: 115px;
+    }
+    .sub-div {
+       margin-top: 10px;
+       width: 164.488px;
+       width:50%;
+       height: 50.695px;
+    }
+ }
+ @media screen and (max-width:800px) and (min-width:720px) {
+    .main-container {
+        width: 610px;
+        height: 352px;
+     }
+     .statistics {
+        width: 70%;
+        height: 69px;
+        font-size: 26px;
+        margin-bottom: 2%;
+     }
+     .bottom-part{
+         margin-top: 0px;
+         width: 65%;
+         margin-bottom: 15px;
+     }
+     .content-p {
+        width: 549px;
+        height: 189px;
+        font-size: 18px;
+        margin-top: 18px;
+        margin-left: 21px;
+     }
+     .h-i {
+        width: 157px;
+        height: 125px;
+        margin-left:12px;
+        margin-top: 0px;
+       
+     }
+     .name {
+        width: 258px;
+        height: 45px;
+        font-size: 24px;
+     }
+     .f-i {
+        width: 25px;
+        height: 25px;
+     }
+     .image-container {
+        width: 80px;
+        height: 115px;
+     }
+     .sub-div {
+        margin-top: 10px;
+        margin-left: 11px;
+        width: 164.488px;
+        width:50%;
+        height: 50.695px;
+     }
+  }
+ 
+ @media screen and (max-width: 720px) and (min-width: 490px){
+    .main-container {
+        height: 90%;
+        width: 100%;
+     }
+    .statistics {
+        font-size: 24px;
+        width: fit-content;
+     }
+     .content-p {
+        font-size: 17px;
+        width: 85%;
+        height: 80%;
+     }
+     .h-i {
+        width: 85px;
+        height: 85px;
+        margin-top: 8px;
+     }
+     .name {
+        width: 200px;
+        height: 19px;
+        font-size: 16px;
+     }
+     .f-i {
+        width: 23px;
+     }
+     .sub-div {
+        margin-left: 0px;
+     }
+     .image-container {
+        height: 148px;
+     }
+ }
+ @media screen and (max-width: 490px) and (min-width: 320px){
+    .main-container {
+        height: 90%;
+        width: 100%;
+     }
+    .statistics {
+        font-size: 22px;
+        width: fit-content;
+     }
+     .content-p {
+        font-size: 15px;
+        width: 80%;
+     }
+     .h-i {
+        width: 70px;
+        height: 70px;
+        margin-top: 8px;
+     }
+     .f-i {
+        width: 22px;
+        height: 24px;
+     }
+     .name {
+        width: 150px;
+        height: 20px;
+        font-size: 13px;
+     }
+     .bottom-part{
+        margin-bottom: 8px;
+        margin-top: 45px;
+     }
+     .image-container {
+        width: 100px;
+        height: 100px;
+     }
+     .sub-div {
+        height: 56px;
+     }
+ }
+ @media screen and (max-width: 390px) and (min-width: 320px){
+    .statistics {
+        width: 100%;
+    }
+    .main-container {
+        width: 94%;
+        height: 450px;
+     }
+     .content-p{
+        width: 77%;
+        font-size: 13px;
+        height: 100%;
+     }
+     .bottom-part {
+        margin-top: 0px;
+     }
+.sub-div {
+    margin-left: 13px;
+}
+ }
+
+
+ .lmain-container{
+    background: #9DC9C8;
+    padding: 90px 0;
+ }
+ .lmain{
+    width:85%;
+    margin:auto;
+    height: 530px;
+    flex-shrink: 0;
+    }
+    .lcourse{
+        width: 908px;
+    height: 66px;
+    flex-shrink: 0;
+        color: #000;
+    font-size: 55px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 101.385%;
+    margin-bottom: 54px;
+    
+    }
+    .lone{
+    width: 170px;
+    height: 32px;
+    flex-shrink: 0;
+    color: #000;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    }
+    .lnumber{
+        width: 481px;
+    height: 158px;
+    flex-shrink: 0;
+    color: #000;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 400;
+    margin-top: -10px;
+    margin-bottom: 0px;
+    }
+    .ltwo{
+        width: 294px;
+    height: 32px;
+    flex-shrink: 0;
+    color: #000;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    }
+    .lthree{
+        width: 294px;
+    height: 70px;
+    flex-shrink: 0;
+    color: #000;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    }
+    .lfour{
+        width: 322px;
+    height: 32px;
+    flex-shrink: 0;
+    color: #000;
+    font-family: Roboto;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    }
+    .lfive{
+        width: 294px;
+    height: 70px;
+    flex-shrink: 0;
+    color: #000;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 101.385%; 
+    }
+    .lcommon{
+        display: flex;
+        justify-content: space-between;
+        width:40%;
+    }
+    .lright{
+        padding-left: 70px;
+    }
+    @media  screen and (max-width:1280px) and (min-width:992px) {
+        .lcourse{
+            width: 500px;
+            height: 38px;
+            font-size: 32px;
+            margin-bottom: 31px;
+        }
+        .lmain{
+            height: 400px;
+        }
+        .lone{
+            width: 98px;
+            height: 18px;
+            font-size: 16px;
+            margin: 10px 0;
+        }
+        .lnumber{
+            width: 278px;
+            height: 104px;
+            font-size: 46px;
+        }
+        .ltwo .lfour{
+            width: 170px;
+            height: 18px;
+            font-size: 14px;
+        }
+        .lthree .lfive{
+            width: 170px;
+            height: 40px;
+            font-size: 10px;
+        }
+        .ltwo .lfour{
+            margin-bottom: 5px;
+            margin-right: 40px;
+        }
+        .lthree{
+            margin-right: 40px;
+        }
+        .lcommon{
+            margin-bottom: 80px;
+        }
+    }
+    @media screen and (max-width:992px) and (min-width:320px) {
+        .lmain{
+            height: 350px;
+        }
+        
+        .lcourse{
+            width: 45%;
+            height: 63px;
+            font-size: 26px;
+            margin-bottom: 20px;
+        }
+        .lone{
+            width: 79px;
+            height: 14px;
+            font-size: 14px;
+            margin-bottom: 14px;
+        }
+        .lnumber{
+          width: 224px;
+          height: 84px;
+          font-size: 37px;
+        }
+        .ltwo{
+            width: 151px;
+            height: 14px;
+            font-size: 16px;
+            margin-bottom: 10px;
+        }
+        .lthree{
+            width: 150px;
+            height: 35px;
+            font-size: 14px;
+        }
+        .lfour{
+            width: 151px;
+            height: 14px;
+            font-size: 16px;
+            margin-bottom: 10px;
+        }
+        .lfive{
+            width: 140px;
+            height: 38px;
+            font-size: 13px;
+        }
+        .lright{
+            margin-left: 30px;
+        }
+    
+    }
+    @media screen and (max-width:440px) and (min-width:320px){
+        .lcommon{
+            flex-direction: column;
+        }
+        .lthree{
+            width:200px;
+            height:80px;
+        }
+        .lfive{
+            width:160px;
+        }
+        .lright{
+            padding-left:0px;
+            margin-left:0px;
+        }
+        .lcourse{
+            height:84px;
+        }
+
+    }
+    footer{
+        width: 100%;
+      height: 390px;
+    flex-shrink: 0;
+    background: #000;
+    }
+    .footer-container{
+        width:85%;
+        margin: auto;
+    }
+    .llogo{
+        width: 115px;
+    height: 68px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    }
+    .lplus{
+        width: 230px;
+    height: 40px;
+    flex-shrink: 0;
+    color: #FFF;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    margin: 0;
+    }
+    .lmail{
+    width: 269px;
+    height: 40px;
+    flex-shrink: 0;
+    color: #FFF;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    margin: 0;
+    }
+    .llast{
+        width: 230px;
+    height: 40px;
+    flex-shrink: 0;
+    color: #FFF;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    margin-top: 100px;
+    padding-top: 42px;
+    }
+    .lbig{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 50px;
+        flex-wrap: wrap;
+    }
+    .lphone{
+        display: flex;
+        margin-top: 59px;
+        align-items: baseline;
+    }
+    .lwhite{
+        display: flex;
+        align-items: baseline;
+    }
+    .lphone img{
+        margin-right: 18px;
+    }
+    .lwhite img{
+        margin-right: 18px;
+    }
+    .lphotos img{
+        margin-right: 18px;
+    }
+    .right1{
+        height: 200px;
+        width: 35%;
+        text-align: end;
+    }
+    .lleft1{
+        width: 55%;
+    }
+    @media  screen and (max-width:1279px) and (min-width:992px) {
+        .lbig{
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin-bottom: 50px;
+            padding-top: 40px;
+        }
+        .lleft1{
+            flex-grow: 1;
+            width: 55%;
+            margin-left: 15px;
+        }
+        .right1{
+            margin-left: 20px;
+            margin-top: 20px;
+            height: auto;
+            width: 35%;
+        }
+        .llast{
+            width: 85%;
+            height: 19px;
+            margin-top:0px;
+            padding: 0;
+            font-size: 16px;
+            text-align: start;
+        }
+        .llogo{
+            width: 66px;
+            height: 39px;
+            margin-top: 29px;
+            margin-bottom: 0px;
+        }
+        .lphotos img{
+            width: 19px;
+            height: 19px;
+            margin-right: 10px;
+            margin-top: 17px;
+            margin-bottom: 85px;
+        
+        }
+        .lphone img{
+            width: 15px;
+            height: 15px;
+            margin-right: 10px;
+            margin-top: 0px;
+        }
+        .lphone{
+            margin-top:0px;
+        }
+        .lphotos{
+            margin-bottom: 0px;
+        }
+        .lwhite img{
+            width: 15px;
+            height: 10px;
+            margin-top: 14px;
+        }
+        .lplus{
+            width: 133px;
+            height: 23px;
+            font-size: 14px;
+            margin-top: 0px;
+        }
+        .lmail{
+            width: 155px;
+            height: 23px;
+            font-size: 14px;
+        }
+        .llast{
+            width: 85%;
+            height: 19px;
+            margin-top:0px;
+            padding: 0;
+            font-size: 16px;
+            text-align: start;
+            padding-left: 15px;
+        }
+        .footer{
+            width: 100%;
+            height: 320px;
+        }
+    
+    }
+    @media screen and (max-width:991px) and (min-width:320px) {
+        .llogo{
+            width: 53px;
+            height: 31px;
+            margin-top: 23px;
+            margin-bottom: 0px;
+        }
+        .lphotos img{
+            width: 15px;
+            height: 15px;
+            margin-right: 8px;
+            margin-top: 13px;
+        }
+        .lphone img{
+            width: 12px;
+            height: 12px;
+            margin-right: 8px;
+            margin-top: 0px;
+        }
+        .lphone{
+            margin-top: 47px;
+        }
+        .lplus{
+            width: 107px;
+            height: 18px;
+            font-size: 12px;
+            margin-top: 0px;
+        }
+        .lwhite img{
+            width: 12px;
+            height: 8px;
+            margin-top: 14px;
+        }
+        .lmail{
+            width: 125px;
+            height: 19px;
+            font-size: 12px;
+        }
+        .llast{
+            width: 85%;
+            height: 19px;
+            margin-top:0px;
+            padding: 0;
+            font-size: 16px;
+            text-align: start;
+        }
+        .footer-container{
+            height: 280px;
+        }
+        .lbig{
+            display: flex;
+            flex-wrap: wrap;
+          }
+          .lleft1{
+            width: 100%;
+          }
+          footer{
+            height: 350px;
+          }
+    }
