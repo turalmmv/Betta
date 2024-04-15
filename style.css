@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+.format{
+    background-color: #fff;
+    margin: 0 auto;
+}
+.format-content{
+    padding: 71px 50px 122px 80px;
+}
+.format-title{
+    font-family: "Roboto Slab", sans-serif;
+    font-size: 55px;
+    line-height: 101.4%;
+}
+.format-items{
+    display: flex;
+    flex-direction: row;
+}
+
+.format-item-title{
+    font-family: "Roboto", sans-serif;
+    font-size: 25px;
+    line-height: 130%;
+    color: #1E4681;
+}
+.format-item-text{
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    line-height: 130%;
+}
+.format-item:first-child{
+    /* width: 194px; */
+    width: 19%;
+    height: 39px;
+    margin-right: 120px;
+}
+.format-item:nth-child(2){
+    max-width: 18.95%;
+    height: 109px;
+    margin-right: 130px;
+}
+.format-item:last-child{
+    max-width: 21%;
+    height: 39px;
+}
+.learn{
+    background-color: #fff;
+    margin: 0 auto;
+}
+.learn-content{
+    padding: 90px 60px 121px 80px;
+}
+.learn-title{
+    font-family: "Roboto Slab", serif;
+    font-size: 55px;
+    font-weight: 700;
+    line-height: 101.4%;
+}
+.learn-list{
+    font-family: "Roboto", sans-serif;
+    font-size: 24px;
+    line-height: 150%;
+    list-style-type: disc;
+    width: 47%;
+}
+.learn-item{
+    padding-left: 17px;
+}
+@media screen and (min-width: 601px) and (max-width: 991px){
+    .format-content{
+        padding: 50px 30px 70px 40px;
+    }
+    .format-title{
+        font-size: 32px;
+    }
+    .format-items{
+        flex-direction: row;
+    }
+    .format-item-title{
+        font-size: 15px;
+    } 
+    .format-item-text{
+        font-size: 11px;
+        line-height: 130%;
+    }
+    .format-item:first-child{
+        width: 17%;
+        height: 22px;
+         margin-right: 90px;
+     }
+    .format-item:nth-child(2){
+        max-width: 16.95%;
+        height: 63px;
+        margin-right: 90px;
+    }
+    .format-item:last-child{
+        max-width: 19%;
+        height: 23px;
+    }
+    .learn-content{
+        padding: 20px 50px 70px 60px;
+    }
+    .learn-title{
+        font-size: 32px;
+    }
+   .learn-list{
+        font-size: 14px;
+        width: 43%;
+    }
+   .learn-item{
+        padding-left: 10px;
+}
+}
+@media screen and (min-width: 300px) and (max-width: 600px){
+    .format-content{
+        padding: 40px 40px 36px 50px;
+    }
+    .format-content{
+        padding: 50px 30px 70px 40px;
+    }
+    .format-title{
+        font-size: 26px;
+    }
+    .format-items{
+        flex-direction: column;
+    }
+    .format-item-title{
+        font-size: 12px;
+        ;
+    } 
+    .format-item-text{
+        font-size: 10px;
+    }
+    .format-item:first-child{
+        width: 53%;
+        margin-bottom: 50px;
+
+     }
+    .format-item:nth-child(2){
+        max-width: 47.99%;
+        height: 63px;
+        margin-bottom: 50px;
+    }
+    .format-item:last-child{
+        max-width: 39%;
+        height: 23px;
+    }
+   .learn-content{
+        padding: 40px 30px 36px 40px;
+   }
+   .learn-title{
+        font-size: 26px;
+   }
+   .learn-list{
+        font-size: 12px;
+        width: 89%;
+   }
+   .learn-item{
+        padding-left: 8px;
+}
+
+}
